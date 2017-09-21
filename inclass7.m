@@ -50,7 +50,10 @@ disp(start_pos(1));
 stop_codon = regexp(genbank_cdx2.Sequence, 'tca');
 disp(stop_codon(end));
 
-% before the start codons 5' UTR, after stop codon 5' UTR
+% looking at the mRNA level: before the start codons 5' UTR and 5' cap,
+% after stop codon 3' UTR with the polyA tail.
+% in the DNA before the start codon and the 5' UTR region for the mRNA we
+% can find the promoter as well
 
 % D. Use the protein_id to read the information on the protein. Use the
 % information you read to determine where the homeobox domain of the protein is.
