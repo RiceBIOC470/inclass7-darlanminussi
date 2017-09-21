@@ -5,7 +5,7 @@
 % developmental stages. Use the UCSC genome browser to answer the following questions
 % about it:
 
-% Using assembly hg19
+% ########## Using assembly hg19 for all questions ##################
 
 % A. What human chromosome is it located on?
 
